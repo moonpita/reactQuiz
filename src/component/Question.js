@@ -4,7 +4,7 @@ import Answer from "./Answer";
 
 const Question = () => {
   const [quizState, dispatch] = useContext(QuizContext);
-  console.log(quizState, " quiz state");
+  console.log(quizState, " quiz state 123123");
   const currentQuestion = quizState.questions[quizState.currentQuestionIndex];
 
   return (
