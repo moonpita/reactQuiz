@@ -4,13 +4,13 @@ import Answer from "./Answer";
 
 const Question = () => {
   const [quizState, dispatch] = useContext(QuizContext);
-  console.log(quizState, " quiz state 123123");
+  console.log(quizState, " quiz state");
   const currentQuestion = quizState.questions[quizState.currentQuestionIndex];
 
   return (
     <div>
-      <div className="question 321">{currentQuestion.question}</div>
-      <div className="answers 123">
+      <div className="question">{currentQuestion.question}</div>
+      <div className="answers 123 123">
         {quizState.answers.map((answer, index) => (
           <Answer
             key={index}
