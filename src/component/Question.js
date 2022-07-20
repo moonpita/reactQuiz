@@ -6,7 +6,7 @@ const Question = () => {
   const [quizState, dispatch] = useContext(QuizContext);
   console.log(quizState, " quiz state 123");
   const currentQuestion = quizState.questions[quizState.currentQuestionIndex];
-
+  console.log('this is from main');
   return (
     <div>
       <div className="question">{currentQuestion.question}</div>
