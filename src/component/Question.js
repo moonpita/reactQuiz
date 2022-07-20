@@ -9,7 +9,7 @@ const Question = () => {
 
   return (
     <div>
-      <div className="question">{currentQuestion.question}</div>
+      <div className="question 321">{currentQuestion.question}</div>
       <div className="answers 123">
         {quizState.answers.map((answer, index) => (
           <Answer
